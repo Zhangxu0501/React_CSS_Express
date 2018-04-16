@@ -1,0 +1,30 @@
+/*分组测试*/
+h1,h2,h3{text-align:center; background-color: #FFA07A;}
+
+/*继承测试*/
+#test-p1{color: aquamarine}
+div{font-family: Verdana; color: #00B7FF;}
+
+/*派生选择器测试*/
+li strong {
+    font-style: italic;
+    font-weight: normal;
+}
+
+/*Id和派生选择器*/
+#test-d1 p{
+    font-style: italic;
+    text-align: right;
+    margin-top: 0.5em;
+}
+
+/*类选择器*/
+h1.classname {
+    text-align:center;
+    color: #00B7FF;
+
+}
+[title]{
+    text-align:center;
+    color: #00B7FF;
+}
