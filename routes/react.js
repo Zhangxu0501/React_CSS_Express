@@ -10,8 +10,11 @@ router.get("/component",function (req,res,next) {
     res.render("react_component.ejs",{});
 })
 router.get("/state",function (req,res,next) {
-    res.render("react_state.ejs",{})
+    res.render("react_state.ejs",{});
 
 })
 
+router.get("/event",function (req,res,next) {
+    res.render("react_event.ejs",{});
+})
 module.exports = router;
